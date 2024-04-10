@@ -8,9 +8,9 @@ issueTrackerURL="https://github.com/moritz-htk/Music-Delay-Reducer/issues"
     version="${version}"
     displayName="Music Delay Reducer"
     #updateJSONURL=""
-    #displayURL=""
+    displayURL="https://sites.google.com/view/moritz-htk/mods/music-delay-reducer"
     logoFile="assets/music_delay_reducer/icon.png"
-    credits="LudoCrypt"
+    credits="LudoCrypt (Original Creator)"
     authors="moritz_htk"
     description='''This mod lets Minecraft music play more often.'''
 
