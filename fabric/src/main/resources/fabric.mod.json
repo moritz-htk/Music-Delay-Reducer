@@ -8,7 +8,7 @@
     "moritz_htk"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "https://sites.google.com/view/moritz-htk/mods/music-delay-reducer",
     "issues": "https://github.com/moritz-htk/Music-Delay-Reducer/issues",
     "sources": "https://github.com/moritz-htk/Music-Delay-Reducer"
   },
@@ -38,9 +38,9 @@
     "modmenu": {
       "update_checker": true,
       "links": {
-        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/music-duration-reducer",
-        "modmenu.github_releases": "https://github.com/moritz-htk/Music-Duration-Reducer/releases",
-        "modmenu.modrinth": "https://modrinth.com/mod/music-duration-reducer"
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/music-delay-reducer",
+        "modmenu.github_releases": "https://github.com/moritz-htk/Music-Delay-Reducer/releases",
+        "modmenu.modrinth": "https://modrinth.com/mod/music-delay-reducer"
       }
     }
   }
