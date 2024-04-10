@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="moritz_htk Software License Agreement (mSLA)"
+issueTrackerURL="https://github.com/moritz-htk/Music-Delay-Reducer/issues"
+
+[[mods]]
+    modId="music_delay_reducer"
+    version="${version}"
+    displayName="Music Delay Reducer"
+    #updateJSONURL=""
+    #displayURL=""
+    logoFile="assets/music_delay_reducer/icon.png"
+    credits="LudoCrypt"
+    authors="moritz_htk"
+    description='''This mod lets Minecraft music play more often.'''
+
+[[mixins]]
+    config="mixin.music_delay_reducer.json"
+
+[[dependencies.music_delay_reducer]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.music_delay_reducer]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.music_delay_reducer]]
+    modId="cloth_config"
+    type="required"
+    versionRange="[13.0.121,)"
+    ordering="AFTER"
+    side="BOTH"

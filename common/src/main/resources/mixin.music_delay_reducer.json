@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.moritz_htk.music_delay_reducer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MDRMusicSoundMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

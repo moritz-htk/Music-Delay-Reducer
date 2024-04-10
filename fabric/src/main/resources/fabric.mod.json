@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "music_delay_reducer",
+  "version": "${version}",
+  "name": "Music Delay Reducer",
+  "description": "This mod lets Minecraft music play more often.",
+  "authors": [
+    "moritz_htk"
+  ],
+  "contact": {
+    "homepage": "",
+    "issues": "https://github.com/moritz-htk/Music-Delay-Reducer/issues",
+    "sources": "https://github.com/moritz-htk/Music-Delay-Reducer"
+  },
+  "license": "moritz_htk Software License Agreement (mSLA)",
+  "icon": "assets/music_delay_reducer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.moritz_htk.music_delay_reducer.fabric.MusicDelayReducerFabric"
+    ],
+    "modmenu": [
+      "net.moritz_htk.music_delay_reducer.fabric.config.MDRModMenuImplementation"
+    ]
+  },
+  "mixins": [
+    "mixin.music_delay_reducer.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.4",
+    "cloth-config2": ">=13.0.121"
+  },
+  "recommends": {
+    "modmenu": ">=9.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": true,
+      "links": {
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/music-duration-reducer",
+        "modmenu.github_releases": "https://github.com/moritz-htk/Music-Duration-Reducer/releases",
+        "modmenu.modrinth": "https://modrinth.com/mod/music-duration-reducer"
+      }
+    }
+  }
+}
