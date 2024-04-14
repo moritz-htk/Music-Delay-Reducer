@@ -12,21 +12,16 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(MusicSound.class)
 public class MDRMusicSoundMixin {
-    @Shadow
-    @Final
-    private int minDelay;
-
-    @Shadow
-    @Final
-    private int maxDelay;
+    @Shadow @Final private int minDelay;
+    @Shadow @Final private int maxDelay;
 
     @Inject(method = "getMinDelay", at = @At("RETURN"), cancellable = true)
-    public void getMinDelay(CallbackInfoReturnable<Integer> callbackInfoReturnable) {
-        callbackInfoReturnable.setReturnValue(Math.round(MathHelper.clamp(MusicDelayReducer.CONFIG.minTime(), MusicDelayReducer.CONFIG.minTime(), MusicDelayReducer.CONFIG.maxTime()) * 20.0F));
+    public void getMinDelay(CallbackInfoReturnable<Integer> ci) {
+        ci.setReturnValue(MathHelper.clamp(MusicDelayReducer.CONFIG.minTime(), MusicDelayReducer.CONFIG.minTime(), MusicDelayReducer.CONFIG.maxTime()) * 20);
     }
 
     @Inject(method = "getMaxDelay", at = @At("RETURN"), cancellable = true)
-    public void getMaxDelay(CallbackInfoReturnable<Integer> callbackInfoReturnable) {
-        callbackInfoReturnable.setReturnValue(Math.round(MathHelper.clamp(MusicDelayReducer.CONFIG.maxTime(), MusicDelayReducer.CONFIG.minTime(), MusicDelayReducer.CONFIG.maxTime()) * 20.0F));
+    public void getMaxDelay(CallbackInfoReturnable<Integer> ci) {
+        ci.setReturnValue(MathHelper.clamp(MusicDelayReducer.CONFIG.maxTime(), MusicDelayReducer.CONFIG.minTime(), MusicDelayReducer.CONFIG.maxTime()) * 20);
     }
 }

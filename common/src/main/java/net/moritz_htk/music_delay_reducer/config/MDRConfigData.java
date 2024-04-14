@@ -8,18 +8,18 @@ import net.moritz_htk.music_delay_reducer.MusicDelayReducer;
 @Config(name = MusicDelayReducer.MOD_ID)
 public class MDRConfigData implements ConfigData, MDRConfig {
     @ConfigEntry.Gui.Tooltip
-    public float minTime = MDRConfigDefaults.MIN_TIME;
+    public int minTime = MDRConfigDefaults.MIN_TIME;
 
     @ConfigEntry.Gui.Tooltip
-    public float maxTime = MDRConfigDefaults.MAX_TIME;
+    public int maxTime = MDRConfigDefaults.MAX_TIME;
 
     @Override
-    public float minTime() {
+    public int minTime() {
         return minTime;
     }
 
     @Override
-    public float maxTime() {
+    public int maxTime() {
         return maxTime;
     }
 }

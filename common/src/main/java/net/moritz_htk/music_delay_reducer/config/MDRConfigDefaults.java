@@ -5,12 +5,12 @@ public class MDRConfigDefaults implements MDRConfig {
     public static final int MAX_TIME = 20;
 
     @Override
-    public float minTime() {
+    public int minTime() {
         return MIN_TIME;
     }
 
     @Override
-    public float maxTime() {
+    public int maxTime() {
         return MAX_TIME;
     }
 }
