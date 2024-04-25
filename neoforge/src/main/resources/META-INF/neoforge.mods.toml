@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[2,)"
+loaderVersion="[3,)"
 license="moritz_htk Software License Agreement (mSLA)"
 issueTrackerURL="https://github.com/moritz-htk/Music-Delay-Reducer/issues"
 
@@ -19,20 +19,20 @@ issueTrackerURL="https://github.com/moritz-htk/Music-Delay-Reducer/issues"
 [[dependencies.music_delay_reducer]]
     modId="neoforge"
     type="required"
-    versionRange="[20.4,)"
+    versionRange="[20.5,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.music_delay_reducer]]
     modId="minecraft"
     type="required"
-    versionRange="[1.20.4,)"
+    versionRange="[1.20.5,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.music_delay_reducer]]
     modId="cloth_config"
     type="required"
-    versionRange="[13.0.121,)"
+    versionRange="[14.0.126,)"
     ordering="AFTER"
     side="BOTH"

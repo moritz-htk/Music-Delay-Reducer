@@ -31,11 +31,11 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.20.4",
-    "cloth-config2": ">=13.0.121"
+    "minecraft": ">=1.20.5",
+    "cloth-config2": ">=14.0.126"
   },
   "recommends": {
-    "modmenu": ">=9.0.0"
+    "modmenu": ">=10.0.0-beta.1"
   },
   "custom": {
     "modmenu": {
