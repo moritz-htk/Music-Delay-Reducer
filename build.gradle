@@ -16,7 +16,6 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${minecraft_version}"
-//        mappings "net.fabricmc:yarn:${yarn_mappings}:v2"
         mappings loom.officialMojangMappings()
     }
 }
@@ -32,8 +31,6 @@ allprojects {
 
     version = mod_version
     group = maven_group
-
-    repositories {}
 
     tasks.withType(JavaCompile) {
         options.encoding = "UTF-8"
