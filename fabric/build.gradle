@@ -79,17 +79,13 @@ publishing {
 }
 
 unifiedPublishing {
-    def dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm")
-    dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"))
-    def time = dateFormat.format(new Date())
-
     project {
         displayName = "[Fabric ${project.minecraft_version}] Music Delay Reducer ${project.version}"
         version = "${project.version}"
         releaseType = "release"
         gameVersions = ["${project.minecraft_version}"]
         gameLoaders = ["fabric"]
-        changelog = "Updated at **$time**.\nChanges: https://github.com/moritz-htk/Music-Delay-Reducer/blob/main/changelog.md"
+        changelog = project(":").file("changelog.md").text
 
         mainPublication tasks.remapJar
 
