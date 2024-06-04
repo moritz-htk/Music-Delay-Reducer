@@ -3,6 +3,17 @@ plugins {
     id "dev.architectury.loom" version "1.6-SNAPSHOT" apply false
 }
 
+def localPropertiesFile = file("local.properties")
+if (localPropertiesFile.exists()) {
+    Properties localProperties = new Properties()
+    localPropertiesFile.withInputStream {
+        stream -> localProperties.load(stream)
+    }
+    localProperties.each {
+        key, value -> project.ext.set(key, value)
+    }
+}
+
 architectury {
     minecraft = minecraft_version
 }
@@ -24,10 +35,6 @@ allprojects {
     apply plugin: "java"
     apply plugin: "architectury-plugin"
     apply plugin: "maven-publish"
-
-    base {
-        archivesName = archives_base_name
-    }
 
     version = mod_version
     group = maven_group

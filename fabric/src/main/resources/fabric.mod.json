@@ -16,7 +16,7 @@
     "sources": "https://github.com/moritz-htk/Music-Delay-Reducer"
   },
   "license": "moritz_htk Software License Agreement (mSLA)",
-  "icon": "assets/music_delay_reducer/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [

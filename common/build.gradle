@@ -2,6 +2,10 @@ architectury {
     common(enabled_platforms.split(","))
 }
 
+base {
+    archivesName = archives_base_name + "-common"
+}
+
 repositories {
     maven { url "https://maven.shedaniel.me/" }
 }
