@@ -19,20 +19,20 @@ issueTrackerURL="https://github.com/moritz-htk/Music-Delay-Reducer/issues"
 [[dependencies.music_delay_reducer]]
     modId="neoforge"
     type="required"
-    versionRange="[20.6,)"
+    versionRange="[21.0,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.music_delay_reducer]]
     modId="minecraft"
     type="required"
-    versionRange="[1.20.6,)"
+    versionRange="[1.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.music_delay_reducer]]
     modId="cloth_config"
     type="required"
-    versionRange="[14.0.126,)"
+    versionRange="[15.0.127,)"
     ordering="AFTER"
     side="BOTH"

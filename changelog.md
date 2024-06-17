@@ -1,2 +1,2 @@
 **Changes:**
-- Internal improvements
+- Updated to Minecraft 1.21
