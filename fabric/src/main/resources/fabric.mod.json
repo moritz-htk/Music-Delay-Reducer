@@ -35,7 +35,7 @@
     "cloth-config2": ">=15.0.127"
   },
   "recommends": {
-    "modmenu": ">=11.0.0-rc.4"
+    "modmenu": ">=11.0.1"
   },
   "custom": {
     "modmenu": {
