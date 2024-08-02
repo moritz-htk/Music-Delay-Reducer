@@ -32,7 +32,7 @@
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.21",
-    "cloth-config2": ">=15.0.127"
+    "cloth-config2": ">=15.0.128"
   },
   "recommends": {
     "modmenu": ">=11.0.1"
