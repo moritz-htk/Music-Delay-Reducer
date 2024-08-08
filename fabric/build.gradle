@@ -72,7 +72,7 @@ unifiedPublishing {
         displayName = "[Fabric ${project.minecraft_version}] Music Delay Reducer ${project.version}"
         version = "${project.version}"
         releaseType = "release"
-        gameVersions = ["${project.minecraft_version}"]
+        gameVersions = ["${project.minecraft_version}", "1.21.1"]
         gameLoaders = ["fabric"]
         changelog = project(":").file("changelog.md").text
 
