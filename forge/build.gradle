@@ -5,7 +5,13 @@ plugins {
 
 architectury {
     platformSetupLoomIde()
-    fabric()
+    forge()
+}
+
+loom {
+    forge {
+        mixinConfig "mixin.music_delay_reducer.json"
+    }
 }
 
 configurations {
@@ -14,9 +20,10 @@ configurations {
         canBeConsumed = false
     }
 
+    shadowCommon
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
-    developmentFabric.extendsFrom common
+    developmentForge.extendsFrom common
 
     shadowBundle {
         canBeResolved = true
@@ -24,24 +31,21 @@ configurations {
     }
 }
 
-repositories {
-    maven { url 'https://maven.terraformersmc.com/releases/' }
-}
-
 dependencies {
-    modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
-    modApi "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-
-    modApi "com.terraformersmc:modmenu:${project.mod_menu_version}"
+    forge "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
-    shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
+    shadowBundle project(path: ':common', configuration: 'transformProductionForge')
+}
+
+configurations.configureEach {
+    resolutionStrategy.force("net.sf.jopt-simple:jopt-simple:5.0.4")
 }
 
 processResources {
     inputs.property 'version', project.version
 
-    filesMatching('fabric.mod.json') {
+    filesMatching('META-INF/mods.toml') {
         expand version: project.version
     }
 }
@@ -59,21 +63,14 @@ remapJar {
 
 unifiedPublishing {
     project {
-        displayName = "[Fabric ${project.minecraft_version}] Music Delay Reducer ${project.version}"
+        displayName = "[Forge ${project.minecraft_version}] Music Delay Reducer ${project.version}"
         version = "${project.version}"
         releaseType = 'release'
         gameVersions = ["${project.minecraft_version}"]
-        gameLoaders = ['fabric']
+        gameLoaders = ['forge']
         changelog = project(':').file('changelog.md').text
 
         mainPublication tasks.remapJar
-
-        relations {
-            optional {
-                curseforge = 'modmenu'
-                modrinth = 'modmenu'
-            }
-        }
 
         if (curseforgeApiKey != null) {
             curseforge {

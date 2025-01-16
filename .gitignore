@@ -1,20 +1,26 @@
-build/
-*.ipr
-run/
-*.iws
-out/
-*.iml
-.gradle/
-output/
-bin/
-libs/
-
-.classpath
-.project
+# IDE-specific files
 .idea/
-classes/
-.metadata
-.vscode
-.settings
+.vscode/
+*.iml
+*.ipr
+*.iws
 *.launch
+
+# Project metadata files
+.classpath
+.metadata
+.project
+.settings
+
+# Build and output directories
+.gradle/
+build/
+bin/
+classes/
+libs/
+out/
+output/
+run/
+
+# Local configuration files
 local.properties

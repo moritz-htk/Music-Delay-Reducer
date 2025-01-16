@@ -7,20 +7,17 @@
   "authors": [
     "moritz_htk"
   ],
-  "contributors": [
-    "LudoCrypt (Original Creator)"
-  ],
   "contact": {
     "homepage": "https://sites.google.com/view/moritz-htk/mods/music-delay-reducer",
-    "issues": "https://github.com/moritz-htk/Music-Delay-Reducer/issues",
-    "sources": "https://github.com/moritz-htk/Music-Delay-Reducer"
+    "issues": "https://github.com/moritz-htk/music-delay-reducer/issues",
+    "sources": "https://github.com/moritz-htk/music-delay-reducer"
   },
-  "license": "moritz_htk Software License Agreement (mSLA)",
-  "icon": "icon.png",
+  "license": "mSLA v2.0",
+  "icon": "assets/music_delay_reducer/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.moritz_htk.music_delay_reducer.fabric.MusicDelayReducerFabric"
+      "net.moritz_htk.music_delay_reducer.fabric.MDRFabric"
     ],
     "modmenu": [
       "net.moritz_htk.music_delay_reducer.fabric.config.MDRModMenuImplementation"
@@ -30,12 +27,13 @@
     "mixin.music_delay_reducer.json"
   ],
   "depends": {
-    "fabric": "*",
-    "minecraft": ">=1.21",
-    "cloth-config2": ">=15.0.128"
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
   },
   "recommends": {
-    "modmenu": ">=11.0.1"
+    "modmenu": ">=11.0.3"
   },
   "custom": {
     "modmenu": {
@@ -43,7 +41,8 @@
       "links": {
         "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/music-delay-reducer",
         "modmenu.github_releases": "https://github.com/moritz-htk/Music-Delay-Reducer/releases",
-        "modmenu.modrinth": "https://modrinth.com/mod/music-delay-reducer"
+        "modmenu.modrinth": "https://modrinth.com/mod/music-delay-reducer",
+        "modmenu.paypal": "https://www.paypal.com/donate/?hosted_button_id=CADH35AVDHEMW"
       }
     }
   }

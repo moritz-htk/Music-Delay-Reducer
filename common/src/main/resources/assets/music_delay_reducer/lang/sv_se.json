@@ -1,0 +1,8 @@
+{
+  "modmenu.descriptionTranslation.music_delay_reducer": "Denna mod gör att Minecraft-musik spelas oftare.",
+  "options.music_delay_reducer.debugModeToggle": "Felsökningsläge",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "Aktiverar eller inaktiverar felsökningsläge för ytterligare konsolutskrifter. (Användbart för att hitta eller rapportera fel)",
+  "options.music_delay_reducer.delayTime": "Väntetid",
+  "options.music_delay_reducer.delayTime.tooltip": "Väntetiden (i minuter) som går innan ett nytt spår spelas.",
+  "options.music_delay_reducer.title": "Inställningar för Music Delay Reducer"
+}

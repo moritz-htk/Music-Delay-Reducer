@@ -1,8 +1,8 @@
 {
-  "modmenu.descriptionTranslation.music_delay_reducer": "Diese Mod lässt de Mienkraftmusig öftor spieln.",
-  "text.autoconfig.music_delay_reducer.option.minTime": "Minimale Zeetverzöcherung",
-  "text.autoconfig.music_delay_reducer.option.minTime.@Tooltip": "Die Mindestwartezeet (in Mienuden), die vorgehen muss, bevoor en neuor Tidel gespielt wird.",
-  "text.autoconfig.music_delay_reducer.option.maxTime": "Maximale Zeetverzöcherung",
-  "text.autoconfig.music_delay_reducer.option.maxTime.@Tooltip": "Die maximole Wartezeet (in Mienuden), die vorgehen dorf, bevoor en neuor Tidel gespielt wird.",
-  "text.autoconfig.music_delay_reducer.title": "Music Delay Reducer Optschonen"
+  "modmenu.descriptionTranslation.music_delay_reducer": "Diese Mod ermöglischt es, dass Minecraft-Musig öftor abgespielt wörd.",
+  "options.music_delay_reducer.debugModeToggle": "Debug-Modus",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "Aktiviert oder deaktiviert dän Debug-Modus für zusätzlische Konsolenausgoben. (Nützlisch zum Finden odor Mälden von Fählern)",
+  "options.music_delay_reducer.delayTime": "Wartezeet",
+  "options.music_delay_reducer.delayTime.tooltip": "De Wartezeet (in Minuden), die vergäht, bis ehn neuor Track abgespielt wörd.",
+  "options.music_delay_reducer.title": "Music Delay Reducer Optschonen"
 }

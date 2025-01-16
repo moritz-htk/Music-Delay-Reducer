@@ -1,8 +1,8 @@
 {
-  "modmenu.descriptionTranslation.music_delay_reducer": "Este mod permite que la música de Minecraft suene más a menudo.",
-  "text.autoconfig.music_delay_reducer.option.minTime": "Tiempo mínimo de retardo",
-  "text.autoconfig.music_delay_reducer.option.minTime.@Tooltip": "El tiempo mínimo de espera (en minutos) que debe transcurrir antes de que se reproduzca una nueva pista.",
-  "text.autoconfig.music_delay_reducer.option.maxTime": "Tiempo máximo de retardo",
-  "text.autoconfig.music_delay_reducer.option.maxTime.@Tooltip": "El tiempo máximo de espera (en minutos) que puede transcurrir antes de que se reproduzca una nueva pista.",
-  "text.autoconfig.music_delay_reducer.title": "Music Delay Reducer Opciones"
+  "modmenu.descriptionTranslation.music_delay_reducer": "Este mod permite que la música de Minecraft se reproduzca más a menudo.",
+  "options.music_delay_reducer.debugModeToggle": "Modo de depuración",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "Activa o desactiva el modo de depuración para obtener salida adicional en la consola. (Útil para encontrar o reportar errores)",
+  "options.music_delay_reducer.delayTime": "Tiempo de retraso",
+  "options.music_delay_reducer.delayTime.tooltip": "El tiempo de espera (en minutos) que pasa hasta que se reproduce una nueva pista.",
+  "options.music_delay_reducer.title": "Opciones de Music Delay Reducer"
 }

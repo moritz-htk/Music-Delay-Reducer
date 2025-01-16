@@ -1,8 +1,8 @@
 {
-  "modmenu.descriptionTranslation.music_delay_reducer": "Deze mod laat Minecraft-muziek vaker spelen.",
-  "text.autoconfig.music_delay_reducer.option.minTime": "Minimale tijdsvertraging",
-  "text.autoconfig.music_delay_reducer.option.minTime.@Tooltip": "De minimale wachttijd (in minuten) die moet verstrijken voordat een nieuw nummer wordt afgespeeld.",
-  "text.autoconfig.music_delay_reducer.option.maxTime": "Maximale tijdvertraging",
-  "text.autoconfig.music_delay_reducer.option.maxTime.@Tooltip": "De maximale wachttijd (in minuten) die mag verstrijken voordat een nieuw nummer wordt afgespeeld.",
-  "text.autoconfig.music_delay_reducer.title": "Music Delay Reducer Opties"
+  "modmenu.descriptionTranslation.music_delay_reducer": "Deze mod zorgt ervoor dat Minecraft-muziek vaker wordt afgespeeld.",
+  "options.music_delay_reducer.debugModeToggle": "Debugmodus",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "Schakelt de debugmodus in of uit voor extra uitvoer naar de console. (Handig voor het vinden of rapporteren van bugs)",
+  "options.music_delay_reducer.delayTime": "Wachttijd",
+  "options.music_delay_reducer.delayTime.tooltip": "De wachttijd (in minuten) die verstrijkt totdat een nieuw nummer wordt afgespeeld.",
+  "options.music_delay_reducer.title": "Opties voor Music Delay Reducer"
 }
