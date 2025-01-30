@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[52,)"
+loaderVersion="[54,)"
 license="mSLA v2.0"
 issueTrackerURL="https://github.com/moritz-htk/music-delay-reducer/issues"
 clientSideOnly=true
@@ -17,13 +17,13 @@ clientSideOnly=true
 [[dependencies.music_delay_reducer]]
     modId="forge"
     mandatory=true
-    versionRange="[52,)"
+    versionRange="[54,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.music_delay_reducer]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.21.1, 1.22)"
+    versionRange="[1.21.4, 1.22)"
     ordering="NONE"
     side="BOTH"

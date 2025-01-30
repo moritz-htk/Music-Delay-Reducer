@@ -20,6 +20,7 @@ Here is a list of all available versions:
 
 | Version | Latest Version | Mod Loader              | Support |
 |---------|----------------|-------------------------|---------|
+| 1.21.4  | 2.0.0+1.21.4   | Fabric, Forge, NeoForge | Active  |
 | 1.21.1  | 2.0.0+1.21.1   | Fabric, Forge, NeoForge | Active  |
 | 1.21    | 1.0.6+1.21     | Fabric, NeoForge        | Stopped |
 | 1.20.6  | 1.0.3+1.20.6   | Fabric, NeoForge        | Stopped |
