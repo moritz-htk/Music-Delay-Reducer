@@ -1,2 +1,3 @@
 **Changes:**
-- Updated to Minecraft 1.21.4
+- Added command to open the options menu
+- Added Japanese translation
