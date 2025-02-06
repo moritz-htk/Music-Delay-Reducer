@@ -20,7 +20,7 @@ Here is a list of all available versions:
 
 | Version | Latest Version | Mod Loader              | Support |
 |---------|----------------|-------------------------|---------|
-| 1.21.1  | 2.0.0+1.21.1   | Fabric, Forge, NeoForge | Active  |
+| 1.21.1  | 2.1.0+1.21.1   | Fabric, Forge, NeoForge | Active  |
 | 1.21    | 1.0.6+1.21     | Fabric, NeoForge        | Stopped |
 | 1.20.6  | 1.0.3+1.20.6   | Fabric, NeoForge        | Stopped |
 | 1.20.5  | 1.0.1+1.20.5   | Fabric, NeoForge        | Stopped |
@@ -29,7 +29,7 @@ Here is a list of all available versions:
 Click [here](https://github.com/moritz-htk/music-delay-reducer/releases) to get to the release list!
 
 ## Supported languages
-- Dutch, English, German, Italian, Spanish, Swedish
+- Dutch, English, German, Italian, Japanese, Spanish, Swedish
 
 You can help translate Music Delay Reducer! Click [here](https://crowdin.com/project/music-delay-reducer)
 

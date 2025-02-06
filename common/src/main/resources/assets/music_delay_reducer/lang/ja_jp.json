@@ -1,0 +1,8 @@
+{
+  "modmenu.descriptionTranslation.music_delay_reducer": "この mod はより頻繁に Minecraft の音楽を再生することができます。",
+  "options.music_delay_reducer.debugModeToggle": "デバッグモード",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "コンソールへの追加出力のデバッグモードを有効または無効にします。(バグの検索または報告に便利です)",
+  "options.music_delay_reducer.delayTime": "遅延時間",
+  "options.music_delay_reducer.delayTime.tooltip": "新しいトラックが再生されるまでの待機時間 (分) 。",
+  "options.music_delay_reducer.title": "設定"
+}
