@@ -1,0 +1,8 @@
+{
+  "modmenu.descriptionTranslation.music_delay_reducer": "Este mod permite que a música do Minecraft toque com mais frequência.",
+  "options.music_delay_reducer.debugModeToggle": "Modo de Depuração",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "Ativa ou desativa o modo de depuração para uma saída adicional no console. (Útil para encontrar ou relatar bugs)",
+  "options.music_delay_reducer.delayTime": "Tempo de atraso",
+  "options.music_delay_reducer.delayTime.tooltip": "O tempo de espera (em minutos) que passa até que uma nova faixa seja tocada.",
+  "options.music_delay_reducer.title": "Opções do Music Delay Reducer"
+}
