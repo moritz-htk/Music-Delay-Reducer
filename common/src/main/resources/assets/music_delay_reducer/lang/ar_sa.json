@@ -1,0 +1,8 @@
+{
+  "modmenu.descriptionTranslation.music_delay_reducer": "هذا المود يسمح لموسيقى ماين كرافت بالتشغيل أكثر من مرة.",
+  "options.music_delay_reducer.debugModeToggle": "وضع التصحيح",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "يفعل أو يعطل وضع التصحيح لعرض نتائج إضافية على وحدة التحكم. (مفيد للعثور على الأخطاء أو الإبلاغ عنها)",
+  "options.music_delay_reducer.delayTime": "التأخير الزمني",
+  "options.music_delay_reducer.delayTime.tooltip": "وقت الانتظار (بالدقائق) الذي يمر حتى يتم تشغيل أغنية جديدة.",
+  "options.music_delay_reducer.title": "خيارات تقليل تأخير الموسيقى"
+}

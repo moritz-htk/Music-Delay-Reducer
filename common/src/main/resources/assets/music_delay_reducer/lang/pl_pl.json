@@ -1,0 +1,8 @@
+{
+  "modmenu.descriptionTranslation.music_delay_reducer": "Ten mod sprawia, że muzyka Minecraft gra częściej.",
+  "options.music_delay_reducer.debugModeToggle": "Tryb debugowania",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "Włącza lub wyłącza tryb debugowania dla dodatkowego wyjścia konsoli. (Przydatne do znajdowania lub zgłaszania błędów)",
+  "options.music_delay_reducer.delayTime": "Opóźnienie",
+  "options.music_delay_reducer.delayTime.tooltip": "Czas oczekiwania (w minutach), który mija do momentu odtworzenia następnego utworu.",
+  "options.music_delay_reducer.title": "Music Delay Reducer Options"
+}

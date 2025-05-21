@@ -5,16 +5,16 @@
   "name": "Music Delay Reducer",
   "description": "This mod lets Minecraft music play more often.",
   "authors": [
-    "moritz_htk"
+    "Kyronis"
   ],
   "contact": {
-    "homepage": "https://sites.google.com/view/moritz-htk/mods/music-delay-reducer",
+    "homepage": "https://kyronis.net/mods/music-delay-reducer",
     "issues": "https://github.com/moritz-htk/music-delay-reducer/issues",
     "sources": "https://github.com/moritz-htk/music-delay-reducer"
   },
   "license": "mSLA v2.0",
   "icon": "assets/music_delay_reducer/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "net.moritz_htk.music_delay_reducer.fabric.MDRFabric"
@@ -27,7 +27,7 @@
     "mixin.music_delay_reducer.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.9",
+    "fabricloader": ">=0.16.14",
     "minecraft": ">=1.21.1",
     "java": ">=21",
     "fabric-api": "*"
@@ -40,7 +40,7 @@
       "update_checker": true,
       "links": {
         "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/music-delay-reducer",
-        "modmenu.github_releases": "https://github.com/moritz-htk/Music-Delay-Reducer/releases",
+        "modmenu.github_releases": "https://github.com/moritz-htk/music-delay-reducer/releases",
         "modmenu.modrinth": "https://modrinth.com/mod/music-delay-reducer",
         "modmenu.paypal": "https://www.paypal.com/donate/?hosted_button_id=CADH35AVDHEMW"
       }

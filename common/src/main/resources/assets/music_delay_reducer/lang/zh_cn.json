@@ -1,0 +1,8 @@
+{
+  "modmenu.descriptionTranslation.music_delay_reducer": "此模组能让Minecraft的音乐更频繁地播放。",
+  "options.music_delay_reducer.debugModeToggle": "调试模式",
+  "options.music_delay_reducer.debugModeToggle.tooltip": "启用调试模式来将额外信息输出到控制台 (用于查找或报告bug)",
+  "options.music_delay_reducer.delayTime": "延迟时间",
+  "options.music_delay_reducer.delayTime.tooltip": "直到新曲目播放需要等待的时间(分钟)。",
+  "options.music_delay_reducer.title": "音乐延迟减少选项"
+}
