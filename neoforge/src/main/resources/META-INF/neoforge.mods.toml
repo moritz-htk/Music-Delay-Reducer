@@ -10,7 +10,7 @@ issueTrackerURL="https://github.com/moritz-htk/music-delay-reducer/issues"
     updateJSONURL="https://api.modrinth.com/updates/music-delay-reducer/forge_updates.json?neoforge=only"
     displayURL="https://kyronis.net/mods/music-delay-reducer"
     logoFile="assets/music_delay_reducer/icon.png"
-    authors="moritz_htk"
+    authors="Kyronis"
     description='''This mod lets Minecraft music play more often.'''
 
 [[mixins]]
